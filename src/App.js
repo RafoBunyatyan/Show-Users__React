@@ -1,5 +1,6 @@
 import React, { } from 'react'
-import Users from './components/Users';
+import UserFinder from './components/UserFinder';
+
 // import WorkApp from './WorkApp';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
 	return (
 		<div>
-			<Users />
+			<UserFinder />
 			{/* <WorkApp /> */}
 		</div>
 	);
